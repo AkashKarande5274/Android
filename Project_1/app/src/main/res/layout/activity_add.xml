@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    tools:context=".activity.AddActivity">
+    <TextView
+        android:text="Add Activity"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_marginTop="15dp"
+        android:hint="ProductId"
+        android:id="@+id/editId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <EditText
+        android:layout_marginTop="15dp"
+        android:hint="Name"
+        android:id="@+id/editName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_marginTop="15dp"
+        android:hint="Category"
+        android:id="@+id/editCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_marginTop="15dp"
+        android:hint="Price"
+        android:id="@+id/editPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:layout_margin="5dp"
+            android:layout_weight="0.5"
+
+            android:layout_width="match_parent"
+            android:text="Save"
+
+            android:layout_height="wrap_content"
+            android:onClick="save"/>
+
+
+        <Button
+            android:layout_margin="5dp"
+            android:layout_weight="0.5"
+            android:layout_width="match_parent"
+            android:text="cancel"
+
+            android:layout_height="wrap_content"
+            android:onClick="cancel"/>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
